@@ -1,0 +1,15 @@
+.movies-shows {
+  padding-bottom: 50px;
+  .main-title {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .movie-show-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+}

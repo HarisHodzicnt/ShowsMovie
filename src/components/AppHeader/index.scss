@@ -1,0 +1,12 @@
+.app-header {
+  display: flex;
+  a {
+    color: white !important;
+    text-decoration: none;
+  }
+  .menu-login {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+  }
+}

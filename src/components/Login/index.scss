@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+.login-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://cdn.pixabay.com/photo/2017/02/23/21/35/cinema-2093264_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .wrapper {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 40px 100px;
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .title {
+      font-size: 45px;
+      color: #333;
+      text-align: center;
+    }
+    div {
+      width: 100%;
+      margin-top: 20px;
+    }
+    input {
+      height: 40px;
+      padding-left: 20px;
+    }
+    button {
+      margin-top: 50px;
+      width: 50%;
+      text-align: center;
+      padding: 5px 25px;
+      background-color: $app-header-color;
+      color: white;
+      &:hover {
+        background-color: inherit;
+        color: black;
+      }
+    }
+  }
+}
