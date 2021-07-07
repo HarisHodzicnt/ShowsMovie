@@ -7,8 +7,7 @@ React, Typescript, Mobx, and https://api.themoviedb.org/3/ API
 
 ## Available Scripts for running the app ( locally )
 
-In the project directory, you can run:
-You can use one of the following commands for running the app on you local machine
+In the project directory you can use one of the following commands for running the app on you local machine:
 
 ### `yarn start`
 
