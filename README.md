@@ -1,6 +1,6 @@
 #ShowsMovies app
 
-ShowsMovies is an app which gives uniques experience to the users. Easy, fast, clean design helps you find in no time you favorite tv shows or movies, it lets you save movie or show to the favorite list, so next time you visit our site that data will be preservet.
+ShowsMovies is an app which gives unique experience to the users. Easy, fast, clean design helps you find in no time you favorite tv shows or movies, it lets you save movies or shows to the favorite list, so next time you visit our site that data will be preserved.
 
 The app was built using:
 React, Typescript, Mobx, and https://api.themoviedb.org/3/ API
@@ -24,19 +24,19 @@ You will also see any lint errors in the console.
 
 You can use one of the following commands for running tests
 
-### `yarn test (optional)`
+### `yarn test`
 
 or
 
-### `npm test (optional)`
+### `npm test`
 
 For building the app, run:
 
-### `yarn build (optional)`
+### `yarn build`
 
 or
 
-### `yarn build (optional)`
+### `npm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
