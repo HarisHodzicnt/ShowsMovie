@@ -116,9 +116,11 @@ export class MovieShowStore {
 
   public sortFavorites = async (sortBy: ISort) => {
     const favorites = await this.getAllFavorites();
-    const sortByTitle = (a: IMovieShow, b: IMovieShow) =>
-      (b.original_title || b.name).localeCompare(a.original_title || a.name);
-
+    const sortByTitle = (a: IMovieShow, b: IMovieShow) => {
+      const aString = a.original_title || a.name || '';
+      const bString = b.original_title || b.name || '';
+      return aString.localeCompare(bString);
+    };
     const sortByDate = (a: IMovieShow, b: IMovieShow) =>
       new Date(a.release_date).getTime() - new Date(b.release_date).getTime();
     let sortedFavorites: IMovieShow[] = [];
