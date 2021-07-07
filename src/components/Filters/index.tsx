@@ -82,6 +82,7 @@ const Filters = observer(() => {
             onChange={handleInputChange}
             value={movieShowStore.filters.name}
             className="flex-row"
+            data-testid="filter-name-input"
           />
           <FormControl className="flex-row selection">
             <InputLabel className="genre-label" id="demo-simple-select-label">
@@ -89,8 +90,8 @@ const Filters = observer(() => {
             </InputLabel>
 
             <Select
-              labelId="demo-mutiple-name-label"
-              id="demo-simple-select"
+              labelId="genre"
+              id="genre"
               onChange={handleInputChange as any}
               value={movieShowStore.filters.genre}
               multiple
@@ -111,7 +112,11 @@ const Filters = observer(() => {
             id="year"
             value={movieShowStore.filters.year}
           />
-          <Button onClick={handleSubmit} className="select flex-row">
+          <Button
+            onClick={handleSubmit}
+            className="select flex-row"
+            data-testid="filter-search"
+          >
             Search
             <SearchIcon />
           </Button>

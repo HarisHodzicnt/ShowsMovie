@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import { AppHeader } from '.';
 
 test('Test login page', () => {
-  render(<App />);
-  const title = screen.getByText('Welcome to the MTWT series');
+  render(<AppHeader />);
+  const title = screen.getByText('Logout');
   expect(title).toBeInTheDocument();
 });

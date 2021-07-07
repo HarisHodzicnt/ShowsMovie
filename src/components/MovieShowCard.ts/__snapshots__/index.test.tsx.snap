@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test MovieShowCard component 1`] = `
+<div>
+  <div
+    class="movie-show-card"
+    data-testid="movie-show-card"
+  >
+    <div
+      class="poster-wrapper"
+    >
+      <img
+        src="https://image.tmdb.org/t/p/w500/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg"
+      />
+    </div>
+    <div
+      class="content"
+    >
+      <div
+        class="header"
+      >
+        <div
+          class="title"
+        >
+          Infinite
+        </div>
+        <div
+          class="rate"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+            />
+          </svg>
+          0
+        </div>
+      </div>
+      <div
+        class="overview"
+      >
+        Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves “Infinites” come to his rescue, revealing that his memories are real.
+      </div>
+      <div
+        class="footer"
+      >
+        <div
+          class="favorites"
+          data-testid="movie-show-card-favorites"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root green-svg"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 18l2 1V3c0-1.1-.9-2-2-2H8.99C7.89 1 7 1.9 7 3h10c1.1 0 2 .9 2 2v13zM15 5H5c-1.1 0-2 .9-2 2v16l7-3 7 3V7c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          Remove from
+           Favorites
+        </div>
+        <div
+          class="date"
+        >
+          2021-09-08
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

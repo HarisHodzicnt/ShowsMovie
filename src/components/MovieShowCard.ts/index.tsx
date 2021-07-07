@@ -17,7 +17,11 @@ const MovieShowCard = (props: MovieShowCardProps) => {
     setFavorite(movieOrShow);
 
   return (
-    <div key={movieShow.id} className="movie-show-card">
+    <div
+      key={movieShow.id}
+      className="movie-show-card"
+      data-testid="movie-show-card"
+    >
       <div className="poster-wrapper">
         <img src={movieShow.poster_path ? url : FAKE_IMG} />
       </div>
@@ -33,7 +37,11 @@ const MovieShowCard = (props: MovieShowCardProps) => {
         </div>
         <div className="overview">{movieShow.overview}</div>
         <div className="footer">
-          <div className="favorites" onClick={handleFavorites(movieShow)}>
+          <div
+            className="favorites"
+            onClick={handleFavorites(movieShow)}
+            data-testid="movie-show-card-favorites"
+          >
             <BookmarksIcon
               className={`${isFavorite ? 'green-svg' : 'navy-svg'}`}
             />

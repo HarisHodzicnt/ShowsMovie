@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test MovieShowCard component 1`] = `
+<div>
+  <div
+    class="MuiGrid-root tabs-filters-page MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4"
+  >
+    <div
+      class="tabs-filters"
+    >
+      <div
+        class="tabs"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text active-tab"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Movies
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text secondary-tab"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Shows
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text secondary-tab"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Favorites
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+      <div
+        class="flex-row filters"
+      >
+        <div
+          class="title"
+        >
+          Filters
+        </div>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline flex-row"
+          data-testid="filter-name-input"
+        >
+          <input
+            class="MuiInputBase-input MuiInput-input"
+            id="name"
+            placeholder="Filter by name"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="MuiFormControl-root flex-row selection"
+        >
+          <label
+            class="MuiFormLabel-root MuiInputLabel-root genre-label MuiInputLabel-formControl MuiInputLabel-animated"
+            data-shrink="false"
+            id="demo-simple-select-label"
+          >
+            Choose genre
+          </label>
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <div
+              aria-haspopup="listbox"
+              aria-labelledby="genre genre"
+              class="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+              id="genre"
+              role="button"
+              tabindex="0"
+            >
+              <span>
+                ​
+              </span>
+            </div>
+            <input
+              aria-hidden="true"
+              class="MuiSelect-nativeInput"
+              name="genre"
+              tabindex="-1"
+              value=""
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSelect-icon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline flex-row"
+        >
+          <input
+            class="MuiInputBase-input MuiInput-input"
+            id="year"
+            placeholder="Filter by year"
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text select flex-row"
+          data-testid="filter-search"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Search
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
