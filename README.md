@@ -7,6 +7,8 @@ React, Typescript, Mobx, and https://api.themoviedb.org/3/ API
 
 ## Available Scripts for running the app ( locally )
 
+First step is to run yarn or npm install in order to install dependencies from the package.json.
+
 In the project directory you can use one of the following commands for running the app on you local machine:
 
 ### `yarn start`
